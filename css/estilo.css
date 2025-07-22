@@ -1,13 +1,40 @@
+@charset "UTF-8";
+
+:root {
+	--cor-branco: #FFFFFF;
+	--cor-cinza-claro: #DCDCDC;
+	--cor-preto: #191817;
+	--cor-marron-escuro: #403219;
+	--cor-marron-claro: #A65437;
+	--cor-amarelo-vivo: #F2B807;
+	--cor-amarelo-fosco: #F2A74B;
+}
+
+
+/*** HEADER ************************************************************************************************************************/
+.btn {
+	margin: 0;
+}
+
+/*** SECTION HOME ************************************************************************************************************************/
 #home {
-	background: #ffc107;
-	color: white;
+	background: var(--cor-amarelo-vivo);
+	color: var(--cor-branco);
 }
 
+/*** CAIXA ************************************************************************************************************************/
 .caixa {
-	padding: 60px 0;
-	border-bottom: 1px solid #e5e5e5;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid var(--cor-branco);
+	background: var(--cor-cinza-claro);
 }
 
+
+/*** FOOTER ************************************************************************************************************************/
 footer p a {
 	margin: 5px 15px;
 }
+
+
+
+/*** RESPONSIVO ************************************************************************************************************************/
